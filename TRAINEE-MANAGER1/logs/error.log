@@ -1,0 +1,22 @@
+22:57:07.502 [main] ERROR o.example.TraineeManager1Application - Error in Null Value
+22:57:07.503 [main] WARN  o.example.TraineeManager1Application - This is Warning Message
+21:54:17.330 [main] ERROR o.example.TraineeManager1Application - Error in Null Value
+21:54:17.331 [main] WARN  o.example.TraineeManager1Application - This is Warning Message
+22:02:24.016 [main] INFO  o.example.TraineeManager1Application - Starting TraineeManager1Application using Java 15.0.2 on Priyanshi with PID 10724 (C:\Users\Lenovo\Desktop\Handson\Sonar_Lombok\TRAINEE-MANAGER1\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\Handson\Sonar_Lombok\TRAINEE-MANAGER1)
+22:02:24.018 [main] INFO  o.example.TraineeManager1Application - No active profile set, falling back to default profiles: default
+22:02:27.274 [main] INFO  o.example.TraineeManager1Application - Started TraineeManager1Application in 3.667 seconds (JVM running for 4.769)
+22:02:27.277 [main] INFO  o.example.TraineeManager1Application - Server is running on Port: 8080 
+22:02:27.278 [main] ERROR o.example.TraineeManager1Application - Error in Null Value
+22:02:27.278 [main] WARN  o.example.TraineeManager1Application - This is Warning Message
+22:02:27.280 [main] INFO  o.example.TraineeManager1Application - Choose option for Trainee:
+22:02:27.280 [main] INFO  o.example.TraineeManager1Application - 
+1. Register 
+2. remove 
+3. Find by name 
+4. Find by cohort code
+5.Print All
+6.Exit
+22:02:33.769 [main] INFO  o.example.TraineeManager1Application - Enter trainee name:
+22:02:40.218 [main] INFO  o.example.TraineeManager1Application - Enter email:
+22:02:48.473 [main] INFO  o.example.TraineeManager1Application - Enter cohort code
+22:02:56.837 [main] INFO  o.example.TraineeManager1Application - Enter Emp ID
