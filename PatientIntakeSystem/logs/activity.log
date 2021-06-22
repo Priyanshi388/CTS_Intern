@@ -1,0 +1,22 @@
+00:10:02.178 [main] INFO  o.e.PatientIntakeSystemApplication - Welcome!
+Select an option?
+00:10:02.180 [main] INFO  o.e.PatientIntakeSystemApplication - 
+1. Add a patient appointment
+2. View all appointments
+3. Exit
+00:10:08.222 [main] INFO  o.e.PatientIntakeSystemApplication - Enter patient name:
+00:10:32.658 [main] INFO  o.e.PatientIntakeSystemApplication - Enter appointment date and time (dd/MM/yyyy):
+00:10:42.004 [main] INFO  o.e.PatientIntakeSystemApplication - Enter doctor value:
+00:10:47.633 [main] INFO  o.e.PatientIntakeSystemApplication - Patient added sucessfully
+00:10:47.633 [main] INFO  o.e.PatientIntakeSystemApplication - 
+1. Add a patient appointment
+2. View all appointments
+3. Exit
+00:10:50.314 [main] INFO  o.e.PatientIntakeSystemApplication - Patient Name: Nikit
+Appointment Date Time: 09/10/0024
+Doctor Name: Samrat Mitra
+
+00:10:50.314 [main] INFO  o.e.PatientIntakeSystemApplication - 
+1. Add a patient appointment
+2. View all appointments
+3. Exit
