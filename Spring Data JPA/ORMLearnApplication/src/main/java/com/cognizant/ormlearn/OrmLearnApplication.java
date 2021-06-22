@@ -119,7 +119,7 @@ public class OrmLearnApplication {
 	}
 
 	private static void testFindAllByNameLikeAsc() {
-		LOGGER.info("Start!!");
+		LOGGER.info("Start!!!");
 		List<Country> countries = countryService.findAllByNameLikeOrderByNameAsc("%ou%");
 		for (Country country : countries) {
 			LOGGER.debug("Countries:{}", countries);
@@ -127,7 +127,7 @@ public class OrmLearnApplication {
 	}
 
 	private static void testFindByNameStartingWith() {
-		LOGGER.info("Start!!");
+		LOGGER.info("Start!!!");
 		List<Country> countries = countryService.findByNameStartsWith("Z");
 		for (Country country : countries) {
 			LOGGER.debug("Countries:{}", countries);
