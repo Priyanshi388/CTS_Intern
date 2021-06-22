@@ -31,7 +31,7 @@ public class TraineeManager1Application {
 		int choice = 0;
 		do {
 			LOGGER.info("\n1. Register " + "\n" + "2. remove " + "\n"
-					+ "3. Find by name " + "\n" + "4. Find by cohort code" + "\n" + "5.Print All"+"\n"+"6.Exit");
+					+ "3. Find by name " + "\n" + "4. Find by cohort code " + "\n" + " 5.Print All "+"\n"+" 6.Exit ");
 			choice = sc.nextInt();
 			switch (choice) {
 			case 1:
