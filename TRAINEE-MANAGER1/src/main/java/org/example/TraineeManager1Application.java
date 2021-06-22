@@ -87,12 +87,12 @@ public class TraineeManager1Application {
 		LOGGER.info("Thank You!!!");
 		sc.close();
 		
-//		String result=ss.createTrainee(new Trainee(0,"Priyanshi", "pri@gmail.com","AAA12AA37"));
+//		String result=ss.createTrainee(new Trainee(0,"Priyanshi", "priyanshi@gmail.com","AAA12AA37"));
 //		System.out.println(result);
 //		System.out.println("in main");
 //		String result=ss.removeTrainee(4);
 //		System.out.println(result);
-//		List<Trainee> li=ss.searchTraineeByName("Nikit");
+//		List<Trainee> li=ss.searchTraineeByName("Saloni");
 //		li.stream().forEach(System.out::println);
 //		List<Trainee> li=ss.getAllTrainee();
 //		li.stream().forEach(System.out::println);
