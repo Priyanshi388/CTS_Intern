@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>truYum</title>
+		<link rel="icon" type="image/ico" href="./images/truyum-logo-dark.png" />
+		<link rel="stylesheet" type="text/css" href="./style/style.css">
+		<script src="./js/script.js"></script>
+	</head>
+	<body>
+		<header>
+			<span class="header-title">truYum</span>
+			<img class="header-logo" src="./images/truyum-logo-light.png" alt="truYum Logo"></img>
+			<nav>
+				<a class="nav-link" href="./menu-item-list-admin.html">Menu</a>
+			</nav>
+		</header>
+		<article>
+			<h2 class="article-heading">Edit Menu Item</h2>
+			<form name="editMenuItemForm" onsubmit="return validateForm();" action="edit-menu-item-status.html">
+				<table class="form-table">
+					<tr>
+						<td colspan="4">
+							<label class="form-item" for="field-title">Title</label>
+							<input class="form-input" type="text" name="title" id="field-title" value="Sandwich"></input>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label class="form-item" for="field-price">Price (Rs.)</label>
+							<input class="form-input form-input-right" type="text" name="price" id="field-price" value="97"></input>
+						</td>
+						<th>
+							<label class="form-item" for="field-yes">Active</label><br>
+							<input type="radio" name="inStock" id="field-yes" value="Yes" checked><label class="form-item" for="field-yes">Yes</label></input>
+							<input type="radio" name="inStock" id="field-no" value="No"><label class="form-item" for="field-no">No</label></input>
+						</th>
+						<td>
+							<label class="form-item" for="field-dateOfLaunch">Date of Launch</label>
+							<input class="form-input" type="text" name="dateOfLaunch" id="field-dateOfLaunch" placeholder="dd/mm/yyyy" value="27/04/2022"></input>
+						</td>
+						<td>
+							<label class="form-item" for="field-category">Category</label>
+							<select class="form-input" name="category" id="field-category">
+								<option value="select">--Select--</option>
+								<option value="Starters">Starters</option>
+								<option value="Main Course" selected>Main Course</option>
+								<option value="Desert">Desert</option>
+								<option value="Drinks">Drinks</option>
+							</select>
+						</td>
+					</tr>
+					<tr colspan=4>
+						<td>
+							<label class="form-item" for="field-freeDelivery">
+								<input type="checkbox" name="freeDelivery" id="field-freeDelivery" checked>Free Delivery
+								<span class="form-checkbox"></span>
+							</label>
+						</td>
+					</tr>
+					<tr colspan=4>
+						<td>
+							<input class="form-button" type="submit" name="submit" value="Save"></input>
+						</td>
+					</tr>
+				</table>
+			</form>
+		</article>
+		<footer>
+			<p>Copyright &copy; 2019</p>
+		</footer>
+	</body>
+</html>
